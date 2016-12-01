@@ -1,0 +1,213 @@
+* {
+	font-family: gudearegular;
+}
+
+a:hover,
+a:focus {
+	color: #7e2213;
+}
+
+.top-bar ul {
+	background: transparent;
+}
+
+.top-bar ul li a {
+	color: #fff;
+}
+
+.j-bg-light-gray {
+	background: rgb(230, 230, 230);
+}
+
+.j-bg-dark-gray {
+	background: rgb(32,32,32);
+}
+
+.j-bg-dark-gray img {
+	opacity: 0.5;
+}
+
+.j-s-margin {
+	margin: 50px 0;
+}
+
+.j-s-padding {
+	padding: 50px 0;
+}
+
+.j-bg-red {
+	background: rgb(192, 49, 26);
+}
+
+.j-quote {
+	padding: 4rem;
+	color: #cccccc;
+}
+
+.j-quote h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.j-line {
+	width: 6rem;
+	height: 1px;
+	background: rgb(186,174,124);
+	margin-bottom: 10px;
+}
+
+.j-flex {
+	display: flex;
+}
+
+.j-arrowlink {
+	text-transform: uppercase;
+	font-family: gudeabold;
+	color: #fff;
+}
+
+.j-arrowlink:before {
+	content: url('../img/arrow.png');
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.orbit-container {
+	height: 420px;
+}
+
+.orbit-bullets button {
+	width: 0.7rem;
+	height: 0.7rem;
+}
+
+.j-height{
+	min-height: 400px !important;
+}
+
+.small {
+	font-size: 17px;
+}
+
+.j-red-border {
+	border-left: 1px solid rgb(192, 49, 26);
+}
+
+.accordion-title {
+	color: rgb(192,49,26);
+}
+
+
+.j-yellow-border-full {
+	border: 1px solid rgb(186,174,124);
+	color: #fff;
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	margin-left: 40rem;
+	margin-top: -2rem;
+	z-index: 0;
+}
+
+.j-red {
+	color: rgb(192,49,26);
+}
+
+.j-banner h4 {
+	color: rgb(192, 49, 26);
+	font-family: gudeabold;
+	text-transform: uppercase;
+
+}
+
+.j-banner~p {
+	padding: 20px 0;
+}
+
+.j-img-bg1 {
+	background: url(../img/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.j-yellowbanner {
+	color: #fff;
+	padding: 150px 0 50px 0;
+	position: relative;
+	z-index: 2;
+}
+
+.j-yellowbanner h4 {
+	color: #fff !important;
+}
+
+.j-tiny-rem {
+	margin-top: 1.5rem;
+}
+
+.j-bottom-menu a{
+	text-transform: uppercase;
+	font-family: gudeabold;
+	color: #656565;
+	font-size: 12px;
+}
+
+.j-bottom-menu a:hover {
+	color: rgb(192, 49, 26);
+}
+
+.j-copywrite {
+	color: #656565;
+	position: absolute;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.j-bottom-facebook {
+	width: 40px;
+	height: 40px;
+	background: url(../img/social/facebook.png) no-repeat;
+	background-size: contain;
+}
+
+.j-bottom-twitter {
+	width: 40px;
+	height: 40px;
+	background: url(../img/social/twitter.png) no-repeat;
+	background-size: contain;
+}
+
+.j-bottom-mail {
+	width: 40px;
+	height: 40px;
+	background: url(../img/social/mail.png) no-repeat;
+	background-size: contain;
+}
+
+.j-bottom-facebook,
+.j-bottom-twitter,
+.j-bottom-mail {
+	margin-right: 40px;
+	transition: background, 1s, ease-in;
+}
+
+.j-bottom-facebook:hover {
+	background: url(../img/social/facebook-orange.png) no-repeat;
+	background-size: contain;
+
+}
+.j-bottom-twitter:hover {
+	background: url(../img/social/twitter-orange.png) no-repeat;
+	background-size: contain;
+}
+.j-bottom-mail:hover {
+	background: url(../img/social/mail-orange.png) no-repeat;
+	background-size: contain;
+}
+
+.top-bar ul li a:hover {
+	color: #7e2213;
+}
